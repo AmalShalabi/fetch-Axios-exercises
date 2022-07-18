@@ -12,6 +12,7 @@ import DataFetching3 from './components/DataFetching3';
 import FetchingDogs from './components/FetchingDogs';
 import FetchByFetch from './components/FetchByFetch';
 import PostFetch from './components/PostFetch';
+import SearchFilter from './components/SearchFilter';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <DataFetching3/> */}
       {/* <FetchingDogs/> */}
       {/* <FetchByFetch/> */}
-      <PostFetch/>
+      {/* <PostFetch/> */}
+      <SearchFilter/>
       
     </div>
   );
